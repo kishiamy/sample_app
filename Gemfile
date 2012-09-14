@@ -10,15 +10,16 @@ group :development, :test do
   gem 'rspec-rails'
 end
 
-
 group :production do
   gem 'pg'
 end
 
-
 group :test do
   gem 'webrat', '0.7.1'
   gem 'spork', '0.9.0.rc8'
+  gem 'autotest'
+  gem 'autotest-fsevent'
+  gem 'autotest-growl'
 end
 
 # Gems used only for assets and not required
