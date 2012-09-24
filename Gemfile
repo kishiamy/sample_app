@@ -23,7 +23,7 @@ group :test do
   gem 'webrat', '0.7.1'
   gem 'spork'
   gem 'autotest'
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', '1.0'
 end
 
 # Gems used only for assets and not required

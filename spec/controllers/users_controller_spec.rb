@@ -6,7 +6,7 @@ describe UsersController do
   describe "GET 'show'" do
 
     before(:each) do
-      @user = Factory(:user)
+     @user = Factory(:user)
     end
     
     it "should be successful" do
