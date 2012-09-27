@@ -32,28 +32,3 @@ module SessionsHelper
       cookies.signed[:remember_token] || [nil, nil]
     end
 end
-
-#  def current_user=(user)
-#    @current_user = user ||= user_from_remember_token
-#  end
-
-#  def signed_in?
-#    !current_user.nil?
-#  end
-
-#  def sign_out
-#    cookies.delete(:remember_token)
-#    self.current_user = nil
-#  end
-#
-#  private
-  
-#    def user_from_remember_token
-#      User.authenticate_with_salt(*rembember_token)
-#    end
-
-#    def rembember_token
-#      cookies.signed[:remember_token] || [nil, nil]
-#    end
-#
-#end
